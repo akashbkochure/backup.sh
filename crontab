@@ -1,0 +1,10 @@
+crontab -e
+
+
+0 2 * * * /bin/bash /home/ubuntu/backup.sh
+
+
+
+=================================================
+
+tar -xzvf backup_2023-09-30_09-25-01.tar.gz --to-command="cat" ./index.html
