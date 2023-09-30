@@ -12,3 +12,12 @@ BACKUP_FILE="backup_$TIMESTAMP.tar.gz"
 tar -czf "$BACKUP_PATH/$BACKUP_FILE" -C "$SOURCE_PATH" .
 
 echo "Backup completed at $TIMESTAMP"
+
+=================================================================
+
+sudo vim backup.sh
+
+sudo chmod +x backup.sh
+
+sudo mkdir akash cd akash 
+sudo mkdir backups
